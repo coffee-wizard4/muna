@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  @apply font-poppins;
+  line-height: 1.5rem;
+}
+
+.bg-muna-green{
+  background-color: #90951d;
+}
+
+.muna-green{
+  color: #90951d;
+}
+
+.bg-secondary{
+  background-color: #1D9095
+  ;
+}
+
+.landing-page-home{
+  background-image: url("/img/landingpage.jpg");
+}
+
+.bg-minibroodjes{
+  background-image: url("img/minibroodjes.jpg");
+  background-size: cover;
+  background-position: 50%;
+}
+
+.bg-grotebroodjes{
+  background-image: url("img/grotebroodjes.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 20%;
+}
+
+.bg-salades{
+  background-image: url("img/salades.jpg");
+  background-position: 20% 65%;
+  background-size: cover;
+}
+
+.bg-tapas{
+  background-image: url("img/tapas.jpg");
+  background-position: 70% 80%;
+  background-size: cover;
+}
+
+.bg-desserts{
+  background-image: url("img/desserts.jpg");
+  background-position: 0% 50%;
+  background-size: cover;
+}
+
+.bg-hoofdgerechten{
+  background-image: url("img/hoofdgerechten.jpg");
+  background-position: 0% 50%;
+  background-size: cover;
+}
