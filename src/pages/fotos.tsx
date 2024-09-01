@@ -3,6 +3,7 @@ export default function Fotos(){
     <>
         <main>
             <h1>Fotos</h1>
+            <p>test</p>
         </main>
     </>
     )
